@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * printf_pointer - prints an hexgecimal number.
  * @val: arguments.
@@ -22,7 +21,7 @@ int printf_pointer(va_list val)
 		}
 		return (i);
 	}
-
+	
 	a = (unsigned long int)p;
 	_putchar('0');
 	_putchar('x');
